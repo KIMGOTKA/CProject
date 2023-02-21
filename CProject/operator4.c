@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main0() {
 	
 	int kor = 50, eng = 44, math = 60;
 	int ff = 0 + 0 + 0;
