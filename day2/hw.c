@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main8() {
 	// page101 #3, #4, #5
 	/* #3
 	   바구니에 복숭아를 10개씩 담을 수 있다.
