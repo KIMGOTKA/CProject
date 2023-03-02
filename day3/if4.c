@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main() {
+int main4() {
 	//교제 122번
 	//정수를 받아서 홀수인지 짝수인지 판별
 	
@@ -38,6 +38,18 @@ int main() {
 		printf("500");
 	}
 	if (age >=19&&age<65 ) {
+		printf("900");
+	}
+	
+	//아니면
+
+	if (age < 6||age>=65) {
+		printf("0");
+	}
+	else if (age >=13&&age<19) {
+		printf("500");
+	}
+	else {
 		printf("900");
 	}
 
