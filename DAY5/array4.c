@@ -38,7 +38,7 @@ int main() {
 		j++;
 	}
 	printf("%s", reverse);
-
+	
 
 	return 0;
 }
