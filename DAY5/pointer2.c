@@ -32,7 +32,7 @@ int main6() {
 	*pnum= 20;  //pnum이 보관하고 있는 주소에 20대입
 	printf("%d\n", num); //20
 
-	(*pnum)++;
+	(*pnum)++;  
 	(*pnum)++;
 	printf("%d\n", num);  //22나와야함
 	printf("%d\n", *pnum);

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main3() {
+int main4() {
 	int i;
 	int odd[3];
 	int even[5] = { 2,4,6,8,10 };
@@ -14,16 +14,19 @@ int main3() {
 	printf("%d %d %d\n", odd[0], odd[1], odd[2]);
 
 	for (i = 0; i < 5; i++) {
-		printf("%d, even[i]");
+		printf("내눈%d\n", even[i]);
 	}
 
-	char mind[30] = "asdasda";
+
+
+
+	char mind[30] = "qwerasdzxcv";
 	printf("%s\n", mind);
 	
-	mind[7] = "asdasda";   //8번째 요소로 null문자 대입
+	mind[7] = "qwerasdzxcv";   //8번째 요소로 null문자 대입
 	printf("%s\n", mind);
 	
-	mind[1] = "asdasda";   //2번째 요소로 null문자 대입
+	mind[1] = "qwerasdzxcv";   //2번째 요소로 null문자 대입
 	printf("%s\n", mind);
 	
 	char str[50] = { 0, };          //50칸모두 null문자로 초기화
@@ -33,6 +36,6 @@ int main3() {
 	printf("입력된 문자열: %s\n", str);
 
 
-
+	
 	return 0;
 }

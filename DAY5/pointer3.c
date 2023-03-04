@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-int main7() {
+int main8() {
 	int a= 10;  //변수에 10 담아서 만들고
 	int* p = &a;//포인터변수 p에 a의 주소를 담아 만들고
 	*p = 20;  //역참조에 20 넣으니a에 20 들어가고
@@ -18,14 +18,17 @@ int main7() {
 	int number = 10;
 	int* pnumber = &number;
 	printf("값: %d,  주소: %p\n" ,* pnumber, pnumber);
+	printf("이거 %d\n",pnumber);
+	printf("이거2 %d",number);
+	printf("이거3 %p\n",&number);
 	
 	
 	
 	
-	int* ptr;
 	int num1 = 5;
 	int num2 = 8;
-	
+	int* ptr;
+
 	ptr = &num1;
 	printf("%d\n", ptr);//5
 	ptr = &num2;
