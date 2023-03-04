@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main() {
+int main4() {
 	//교제 158번
 	//길이가 5인 int형 배열을 선언하고 초기화한다. 이때 각 요소는 원하는 값을 담는다
 	//해당 배열에 대해 다음결과를 출력하기
@@ -38,6 +38,6 @@ int main() {
 		j++;
 	}
 
-
 	return 0;
 }
+

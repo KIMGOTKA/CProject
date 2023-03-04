@@ -14,12 +14,12 @@ int main2() {
 	printf("%s\n", ss);
 
 	//배열 선언
-	int nums[3];
+	int nums1[3];//질문
 	//배열 대입
 	//{}는 초기화할 때만 사용
-	nums[0] = 0;
-	nums[1] = 1;
-	nums[2] = 2;
+	nums1[0] = 0;
+	nums1[1] = 1;
+	nums1[2] = 2;
 
 	return 0;
 }

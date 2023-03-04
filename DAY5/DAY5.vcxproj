@@ -130,6 +130,9 @@
     <ClCompile Include="Array1.c" />
     <ClCompile Include="array2.c" />
     <ClCompile Include="pointer.c" />
+    <ClCompile Include="pointer2.c" />
+    <ClCompile Include="pointer3.c" />
+    <ClCompile Include="pointerarray1.c" />
     <ClCompile Include="review.c" />
     <ClCompile Include="array3.c" />
     <ClCompile Include="array4.c" />
