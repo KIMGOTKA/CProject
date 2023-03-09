@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClCompile Include="array1.c" />
     <ClCompile Include="review.c" />
+    <ClCompile Include="string1.c" />
+    <ClCompile Include="string2.c" />
+    <ClCompile Include="먼가이상하다.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

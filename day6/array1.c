@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main1(){
 	//이차원배열: 배열안에 배열
 	//삼차원배열: 배열안에 배열안에 배열
 	int arr[3][2] = { {1,2},{3,4},{5,6} };
@@ -9,8 +9,9 @@ int main(){
 	printf("%d\n", arr2[1]);    //3
 	printf("%d\n", arr[0][1]);  //2
 
-	char str1[] = "abcd";  //5칸짜리 char
+	char str1[] = "abcd";  //5칸짜리 char: 초기화해준만큼 알아서 배열크기 잡음
 	char str2[5] = "abcd";
+	char *str1_1="abcd";  //포인터로 초기화를 통해 5칸짜리 배열 생성
 
 	char str[5][5] = { "커피","라면","우유","물","빵" };  //한글은 2칸차지, 커피: 5칸, 커1 피1 null1
 	//5,5,5,3,3 칸 차지
