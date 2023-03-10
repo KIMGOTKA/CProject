@@ -27,6 +27,7 @@
     <ClCompile Include="string1.c" />
     <ClCompile Include="string2.c" />
     <ClCompile Include="먼가이상하다.c" />
+    <ClCompile Include="소스.c" />
     <ClCompile Include="추가.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
