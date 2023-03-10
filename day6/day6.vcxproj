@@ -20,6 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="array1.c" />
+    <ClCompile Include="function1.c" />
+    <ClCompile Include="function2.c" />
     <ClCompile Include="review.c" />
     <ClCompile Include="string1.c" />
     <ClCompile Include="string2.c" />

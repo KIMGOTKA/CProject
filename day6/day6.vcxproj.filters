@@ -30,5 +30,11 @@
     <ClCompile Include="string2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="function1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

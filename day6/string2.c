@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 
-int main() {
+int main3() {
 	//교재 209ㅔ 1,2
 	//1.두 개의 문자열(이름)을 입력받아 같은지 같지 않은지 알려주는 프로그램
 	char A[50] = {0};
